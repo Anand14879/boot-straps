@@ -16,8 +16,10 @@
             </div>
             <div class="card-body text-center">
 
+                {{-- {{ $qrCode1 }} --}}
+                
                 {{ $qrCode }}
-
+                
                 <h3>Event Details:</h3>
                 <ul>
                     <li>Location: {{ $eventDetails['location'] }}</li>
